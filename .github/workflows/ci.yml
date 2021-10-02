@@ -39,6 +39,6 @@ jobs:
         image: muritala/gradle
         tags: v1, latest
         registry: docker.io
-      dockerfile: .
+      dockerfile: Dockerfile
       username: ${{ secrets.DOCKER_USERNAME }}
       password: ${{ secrets.DOCKER_PASSWORD }}
